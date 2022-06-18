@@ -29,6 +29,7 @@ public class SpringDataApplication implements CommandLineRunner {
 		Cargo cargo = new Cargo();
 		cargo.setDescricao("DESENVOLVEDOT DE SOFTWARE");
 		repository.save(cargo);
+		
 	}
 
 }
